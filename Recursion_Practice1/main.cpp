@@ -13,10 +13,13 @@ int linearSearchR(int [], int, int, int);
 // linear search recursive - helper function
 
 int findDuplicatesI(string &);
+// find duplicates iterative
 
 int findDuplicatesR(string &);
+// find duplicates recursive
 
 int findDuplicatesR(string &, int, int);
+// find duplicates recursive - helper function
 
 
 int main() {
