@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/nadin/CLionProjects/LLRecursion/cmake-build-debug",
-		"source" : "/Users/nadin/CLionProjects/LLRecursion"
+		"build" : "/Users/nadin/CLionProjects/Leetcode/Recursion_Practice2/cmake-build-debug",
+		"source" : "/Users/nadin/CLionProjects/Leetcode/Recursion_Practice2"
 	},
 	"version" : 
 	{
