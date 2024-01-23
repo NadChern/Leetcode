@@ -58,9 +58,9 @@ int main() {
     }
 
     Solution sol2;
-    vector<int> nums = {4, 5, 3, 4};
+    vector<int> nums = {4, 5, 6, 4};
     int target2 = 8;
-    vector<int> result2 = sol.twoSumHASH(num, target2);
+    vector<int> result2 = sol2.twoSumHASH(nums, target2);
     for (int index: result2) {
         cout << index << " ";
     }
