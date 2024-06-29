@@ -1,0 +1,19 @@
+# ninja log v5
+1	451	1719694828294009131	CMakeFiles/696_CountBinarySubstrings.dir/main.cpp.o	b68a217a958b82ca
+452	481	1719694828324878378	696_CountBinarySubstrings	eb1fcc2cf7af7a37
+3	235	1719694906907001524	CMakeFiles/696_CountBinarySubstrings.dir/main.cpp.o	b68a217a958b82ca
+236	261	1719694906933916562	696_CountBinarySubstrings	eb1fcc2cf7af7a37
+3	234	1719694942928168058	CMakeFiles/696_CountBinarySubstrings.dir/main.cpp.o	b68a217a958b82ca
+234	259	1719694942954580174	696_CountBinarySubstrings	eb1fcc2cf7af7a37
+3	230	1719694997200717519	CMakeFiles/696_CountBinarySubstrings.dir/main.cpp.o	b68a217a958b82ca
+230	257	1719694997229182199	696_CountBinarySubstrings	eb1fcc2cf7af7a37
+3	442	1719695309574287248	CMakeFiles/696_CountBinarySubstrings.dir/main.cpp.o	b68a217a958b82ca
+442	469	1719695309602551486	696_CountBinarySubstrings	eb1fcc2cf7af7a37
+2	409	1719696349436116436	CMakeFiles/696_CountBinarySubstrings.dir/main.cpp.o	b68a217a958b82ca
+409	438	1719696349466520392	696_CountBinarySubstrings	eb1fcc2cf7af7a37
+3	431	1719703543277180284	CMakeFiles/696_CountBinarySubstrings.dir/main.cpp.o	b68a217a958b82ca
+431	460	1719703543307321341	696_CountBinarySubstrings	eb1fcc2cf7af7a37
+3	252	1719703665794427256	CMakeFiles/696_CountBinarySubstrings.dir/main.cpp.o	b68a217a958b82ca
+252	278	1719703665821936028	696_CountBinarySubstrings	eb1fcc2cf7af7a37
+2	248	1719703701854293192	CMakeFiles/696_CountBinarySubstrings.dir/main.cpp.o	b68a217a958b82ca
+248	275	1719703701882651213	696_CountBinarySubstrings	eb1fcc2cf7af7a37
