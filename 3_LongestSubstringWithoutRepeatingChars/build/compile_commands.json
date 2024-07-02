@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/nadin/CLionProjects/Leetcode/3_LongestSubstringWithoutRepeatingChars/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -o CMakeFiles/3_LongestSubstringWithoutRepeatingChars.dir/countSubstring.cpp.o -c /Users/nadin/CLionProjects/Leetcode/3_LongestSubstringWithoutRepeatingChars/countSubstring.cpp",
+  "file": "/Users/nadin/CLionProjects/Leetcode/3_LongestSubstringWithoutRepeatingChars/countSubstring.cpp",
+  "output": "CMakeFiles/3_LongestSubstringWithoutRepeatingChars.dir/countSubstring.cpp.o"
+}
+]
