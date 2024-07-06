@@ -3,10 +3,12 @@
 
 #include <iostream>
 #include <vector>
+#include <string>
 
 using namespace std;
 
 bool threeConsecutiveOdds(vector<int> &arr);
+bool threeConsecutiveOdds2(vector<int> &arr);
 
 int main() {
     vector<int> arr1 = {2, 6, 4, 1};
@@ -14,6 +16,11 @@ int main() {
     bool result1 = threeConsecutiveOdds(arr1);
     bool result2 = threeConsecutiveOdds(arr2);
     cout << boolalpha << result1 << " " << result2; // false -> true
+
+    // another solution
+    bool result3 = threeConsecutiveOdds2(arr1);
+    bool result4 = threeConsecutiveOdds2(arr2);
+    cout << boolalpha << result3 << " " << result4; // false -> true
     return 0;
 }
 
@@ -33,5 +40,14 @@ bool threeConsecutiveOdds(vector<int> &arr) {
     return false;
 }
 
+// with binary string solution
+bool threeConsecutiveOdds2(vector<int> &arr) {
+    string binary;
 
+    for (int num: arr) {
+        binary += (num % 2) ? '1': '0';
+    }
+    return binary.find("111") != string::npos; // find returns position of substring
+    // if substring is not found, method returns string::npos
+}
 
