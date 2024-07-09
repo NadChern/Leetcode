@@ -1,0 +1,11 @@
+# ninja log v5
+0	447	1720487349202349802	CMakeFiles/stringMatch_BruteForce.dir/main.cpp.o	88c59652890f8483
+448	478	1720487349235333562	stringMatch_BruteForce	2313ab6a9aa25291
+3	424	1720487392512960381	CMakeFiles/stringMatch_BruteForce.dir/main.cpp.o	88c59652890f8483
+424	451	1720487392541362537	stringMatch_BruteForce	2313ab6a9aa25291
+3	442	1720488456676705038	CMakeFiles/stringMatch_BruteForce.dir/main.cpp.o	88c59652890f8483
+442	469	1720488456705675498	stringMatch_BruteForce	2313ab6a9aa25291
+3	478	1720489720367595147	CMakeFiles/stringMatch_BruteForce.dir/main.cpp.o	88c59652890f8483
+478	507	1720489720398422605	stringMatch_BruteForce	2313ab6a9aa25291
+3	473	1720489965902708749	CMakeFiles/stringMatch_BruteForce.dir/main.cpp.o	88c59652890f8483
+473	503	1720489965934094042	stringMatch_BruteForce	2313ab6a9aa25291
