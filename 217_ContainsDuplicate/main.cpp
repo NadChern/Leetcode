@@ -22,10 +22,10 @@ using namespace std;
 
 class Solution {
 public:
-    bool containsDuplicate(vector<int> & nums) {
-        unordered_map<int,int> map; // maps each number to its index
-        for(int i=0; i < nums.size(); i++) {
-            if(map.find(nums[i]) != map.end()){
+    bool containsDuplicate(vector<int> &nums) {
+        unordered_map<int, int> map; // maps each number to its index
+        for (int i = 0; i < nums.size(); i++) {
+            if (map.find(nums[i]) != map.end()) {
                 return true; // duplicate found
             }
             map[nums[i]] = i; // the key in the map is a value 1:0, 2:1, 3:2...
@@ -36,7 +36,21 @@ public:
 
 int main() {
     Solution sol;
-    vector<int> nums = {1,2,3,4,5,1};
+    vector<int> nums = {1, 2, 3, 4, 5, 1};
     bool answer = sol.containsDuplicate(nums);
     cout << "Duplicates? " << (answer ? "Yes" : "No") << endl; // NICE SYNTAX
+}
+
+
+
+//C# solution Dictionary is used for tracking keys=nums
+public bool hasDuplicate(int[]nums) {
+    Dictionary<int, int> uniqueValues = new Dictionary<int, int>();
+    for (int i = 0; i < nums.Length; i++) {
+        if (uniqueValues.ContainsKey(nums[i])) {
+            return true;
+        }
+        uniqueValues[nums[i]] = 1; // 1 is arbitrary, no specific meaning
+    }
+    return false;
 }
